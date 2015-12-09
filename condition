@@ -1,0 +1,5 @@
+$ curl -i -XPOST \
+-H "Authorization: Bearer 84b4bbb99ca3698ccc1879747a22b51379fe03ac44cb684bacfad7929a3bb37d" \
+https://api-http.littlebitscloud.cc/v3/devices/243c200bfef2/output \
+-d percent=50 \
+-d duration_ms=5000
